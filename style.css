@@ -1,0 +1,47 @@
+.bank-title{
+    
+}
+.form-control {
+  
+   width: 98% !important;
+}
+.w-20{
+    width: 20% !important;
+}
+
+.diposit{
+    background-color: #4b37b0 !important;
+    color: #fff !important;
+    border: 1px solid #4b37b0 !important;
+    padding: 10px 0px !important;
+   margin-right: 20px !important;
+}
+
+.withdraw{
+    background-color: #b56b4a !important;
+    color: #fff !important;
+    border: 1px solid #b56b4a !important;
+    padding: 10px 0px !important;
+    margin-right: 20px !important;
+
+}
+
+.balance{
+    background-color: #ba7500 !important;
+    color: #fff !important;
+    border: 1px solid #ba7500 !important;
+    padding: 10px 0px !important;
+    margin-right: 20px !important;
+}
+
+.deposit-input{
+    box-shadow: 0px 0px 5px 5px #7c7b7d;
+}
+
+.withdraw-input{
+    box-shadow: 0px 0px 5px 5px #7c7b7d;
+}
+
+#transection-area{
+    display: none;
+}

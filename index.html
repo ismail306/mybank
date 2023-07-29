@@ -4,18 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MyBank</title>
     <link id="theme" rel="stylesheet" href="style.css">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="text-center">
-        Ismail
+    <div id="login-area" class="container">
+
+
+
+        <h1 class="text-center py-5 bank-title">
+            Wellcome To MyBank
+        </h1>
+
+
+        <div class="submit-area card">
+            <h4 class="mx-3 pt-4">login</h4>
+            <input type="text" class="form-control m-3" id="username">
+            <input type="password" name="" class="form-control m-3" id="password">
+            <button class="btn  w-20 btn-success m-3" id="login">Login</button>
+
+        </div>
+    </div>
+
+    <div id="transection-area">
+        <div class="container  mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="diposit card pl-3">
+                        <p>Diposit</p>
+                        <h3>$ 00</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="withdraw card pl-3">
+                        <p>withdraw</p>
+                        <h3>$ 00</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="balance card pl-3">
+                        <p>Balance</p>
+                        <h3>$ 00</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-6 ">
+                    <div class="card mt-5 p-3 deposit-input">
+                        <h4>Deposit</h4>
+                        <input type="text" class="form-controller my-2" placeholder="$ amount you want to deposit">
+                        <button class="btn w-20 btn-success">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mt-5 p-3 withdraw-input">
+                        <h4>Withdraw</h4>
+                        <input type="text" class="form-controller my-2" placeholder="$ amount you want to withdraw">
+                        <button class="btn w-20 btn-success">Withdraw</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </body>
+<script src="script.js"></script>
 
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </html>
