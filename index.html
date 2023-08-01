@@ -34,42 +34,51 @@
                 <div class="col-md-4">
                     <div class="diposit card pl-3">
                         <p>Diposit</p>
-                        <h3>$ 00</h3>
+                        <h3>$ <span id="deposit">00</span></h3>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="withdraw card pl-3">
                         <p>withdraw</p>
-                        <h3>$ 00</h3>
+                        <h3>$ <span id="withdraw">00</span></h3>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="balance card pl-3">
                         <p>Balance</p>
-                        <h3>$ 00</h3>
+                        <h3>$ <span id="balance">00</span></h3>
                     </div>
                 </div>
             </div>
 
-            <div class="row mb-5">
-                <div class="col-md-6 ">
-                    <div class="card mt-5 p-3 deposit-input">
-                        <h4>Deposit</h4>
-                        <input type="text" class="form-controller my-2" placeholder="$ amount you want to deposit">
-                        <button class="btn w-20 btn-success">Deposit</button>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mt-5 p-3 withdraw-input">
-                        <h4>Withdraw</h4>
-                        <input type="text" class="form-controller my-2" placeholder="$ amount you want to withdraw">
-                        <button class="btn w-20 btn-success">Withdraw</button>
-                    </div>
-                </div>
+        </div>
 
+        <div class="container  mt-5">
+            <div id="submit-area">
+
+                <div class="row mb-5">
+                    <div class="col-md-6 ">
+                        <div class="card mt-5 p-3 deposit-input">
+                            <h4>Deposit</h4>
+                            <input type="text" id="depositAmount" name="deposit" value="" class="form-controll my-2"
+                                placeholder="$ amount you want to deposit">
+                            <button class="btn  w-40 btn-success" id="depositBtn">Deposit</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mt-5 p-3 withdraw-input">
+                            <h4>Withdraw</h4>
+                            <input type="text" id="withdrawAmount" name="withdraw" value="" class="form-controll my-2"
+                                placeholder="$ amount you want to withdraw">
+                            <button class="btn w-40  btn-success" id="withdrawBtn">Withdraw</button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
+
 </body>
 <script src="script.js"></script>
 
